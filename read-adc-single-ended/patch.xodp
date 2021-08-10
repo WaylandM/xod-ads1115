@@ -1,2 +1,69 @@
 {
+  "description": "Gets a single-ended ADC reading from the specified channel.",
+  "nodes": [
+    {
+      "id": "Hke6M1xxY",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "An ADS1115 device.",
+      "id": "HyxxpfyelY",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-ads1115-device"
+    },
+    {
+      "description": "Update",
+      "id": "rybxafyglK",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "ADC reading in raw counts.",
+      "id": "r1GlaM1lgK",
+      "label": "Value",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Pulse on read.",
+      "id": "BJmxpfyxet",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Channel. 00h=ADC0, 01h=ADC1, 02h=ADC2, 03h=ADC3.",
+      "id": "r1EGmkxet",
+      "label": "CHL",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    }
+  ]
 }

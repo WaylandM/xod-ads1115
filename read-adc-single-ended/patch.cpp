@@ -6,10 +6,8 @@ node {
 
         // Get a pointer to the `Adafruit_ADS1115` class instance
         auto sensor = getValue<input_DEV>(ctx);
-        int16_t raw = getValue<input_ADC>(ctx);
-
-        emitValue<output_Volts>(ctx, sensor->computeVolts(raw));
+        uint8_t chl = getValue<input_CHL>(ctx);
+        emitValue<output_Value>(ctx, sensor->readADC_SingleEnded(chl));
         emitValue<output_Done>(ctx, 1);
-
     }
 }

@@ -78,10 +78,10 @@
       }
     },
     {
-      "id": "rk24kyleF",
+      "id": "SJpsr1eeK",
       "input": {
-        "nodeId": "SkYVJkxeF",
-        "pinKey": "By_MnCkeK"
+        "nodeId": "SydiSkllt",
+        "pinKey": "HyxxpfyelY"
       },
       "output": {
         "nodeId": "HkbBkCJeF",
@@ -89,10 +89,10 @@
       }
     },
     {
-      "id": "SyREJklxK",
+      "id": "S1khByggF",
       "input": {
-        "nodeId": "SkYVJkxeF",
-        "pinKey": "B1pmhCklY"
+        "nodeId": "SydiSkllt",
+        "pinKey": "rybxafyglK"
       },
       "output": {
         "nodeId": "rkrdqCkeK",
@@ -100,14 +100,58 @@
       }
     },
     {
-      "id": "S1RBkkeeY",
+      "id": "B1b6HJlxY",
+      "input": {
+        "nodeId": "rk0hByxet",
+        "pinKey": "BklIcx1eeK"
+      },
+      "output": {
+        "nodeId": "HkbBkCJeF",
+        "pinKey": "S13YspJlK"
+      }
+    },
+    {
+      "id": "rkNaSJxxt",
+      "input": {
+        "nodeId": "rk0hByxet",
+        "pinKey": "SyZob1let"
+      },
+      "output": {
+        "nodeId": "SydiSkllt",
+        "pinKey": "r1GlaM1lgK"
+      }
+    },
+    {
+      "id": "HJH6SkxlK",
       "input": {
         "nodeId": "ryFSykxxt",
         "pinKey": "HkXK-dGob"
       },
       "output": {
-        "nodeId": "SkYVJkxeF",
-        "pinKey": "BkpVn0ylF"
+        "nodeId": "SydiSkllt",
+        "pinKey": "r1GlaM1lgK"
+      }
+    },
+    {
+      "id": "r1daB1ggK",
+      "input": {
+        "nodeId": "SkUhBylxF",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rk0hByxet",
+        "pinKey": "B1fI5lkxeF"
+      }
+    },
+    {
+      "id": "ry7H8kxeK",
+      "input": {
+        "nodeId": "rk0hByxet",
+        "pinKey": "rJZU5xJgxK"
+      },
+      "output": {
+        "nodeId": "SydiSkllt",
+        "pinKey": "BJmxpfyxet"
       }
     }
   ],
@@ -189,20 +233,11 @@
       "type": "xod/debug/watch"
     },
     {
-      "id": "SkYVJkxeF",
-      "position": {
-        "units": "slots",
-        "x": 13,
-        "y": 3
-      },
-      "type": "@/read-adc-differential-0-1"
-    },
-    {
       "id": "ryFSykxxt",
       "position": {
         "units": "slots",
         "x": 13,
-        "y": 4
+        "y": 5
       },
       "size": {
         "height": 1,
@@ -210,6 +245,38 @@
         "width": 4
       },
       "type": "xod/debug/watch"
+    },
+    {
+      "id": "SydiSkllt",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 3
+      },
+      "type": "@/read-adc-single-ended"
+    },
+    {
+      "id": "SkUhBylxF",
+      "position": {
+        "units": "slots",
+        "x": 17,
+        "y": 5
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "rk0hByxet",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 4
+      },
+      "type": "@/compute-volts"
     }
   ]
 }

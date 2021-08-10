@@ -1,2 +1,61 @@
 {
+  "description": "Set the data rate.",
+  "nodes": [
+    {
+      "id": "rJQcHJeeF",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "An ADS1115 device.",
+      "id": "B1gQqHyxeY",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-ads1115-device"
+    },
+    {
+      "description": "Update.",
+      "id": "Hyz7qBkeeK",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse when data rate set.",
+      "id": "rkm75ryext",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "128"
+      },
+      "description": "Data rate (samples per second). Options: 8, 16, 32, 64, 128 (default), 250, 475, 860.",
+      "id": "ByetLkxxt",
+      "label": "Rate",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    }
+  ]
 }

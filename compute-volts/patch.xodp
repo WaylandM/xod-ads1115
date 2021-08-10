@@ -33,7 +33,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "description": "ADC reading in raw counts.",
+      "description": "Result of conversion (volts).",
       "id": "B1fI5lkxeF",
       "label": "Volts",
       "position": {
@@ -55,6 +55,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "ADC reading in raw counts.",
       "id": "SyZob1let",
       "label": "ADC",
       "position": {
