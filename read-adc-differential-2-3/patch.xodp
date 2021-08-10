@@ -1,2 +1,58 @@
 {
+  "description": "Reads the conversion results, measuring the voltage difference between the P (AIN2) and N (AIN3) input.  Generates a signed value since the difference can be either positive or negative.",
+  "nodes": [
+    {
+      "id": "BJ0ZhRyxK",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "An ADS1115 device.",
+      "id": "By_MnCkeK",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "@/input-ads1115-device"
+    },
+    {
+      "description": "Update",
+      "id": "B1pmhCklY",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "ADC reading in raw counts.",
+      "id": "BkpVn0ylF",
+      "label": "Value",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Pulse on read.",
+      "id": "SJ7sTAyxt",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
 }

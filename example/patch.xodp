@@ -1,13 +1,215 @@
 {
+  "links": [
+    {
+      "id": "rJ97vAyet",
+      "input": {
+        "nodeId": "SklQwCyeY",
+        "pinKey": "HJymf0ylK"
+      },
+      "output": {
+        "nodeId": "HkbBkCJeF",
+        "pinKey": "S13YspJlK"
+      }
+    },
+    {
+      "id": "BkaXwRygF",
+      "input": {
+        "nodeId": "rk77wCJeY",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "SklQwCyeY",
+        "pinKey": "Sk0gmCyxK"
+      }
+    },
+    {
+      "id": "S1HHP01gY",
+      "input": {
+        "nodeId": "SklQwCyeY",
+        "pinKey": "S1o4701gF"
+      },
+      "output": {
+        "nodeId": "SJpED0yeK",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "SkvHvR1xF",
+      "input": {
+        "nodeId": "SJpED0yeK",
+        "pinKey": "SkSuD6LMb"
+      },
+      "output": {
+        "nodeId": "HJNVvCklF",
+        "pinKey": "ryVmUAOrvkb"
+      }
+    },
+    {
+      "id": "HJ9dq0yeY",
+      "input": {
+        "nodeId": "rkrdqCkeK",
+        "pinKey": "HJgF9uR1gt"
+      },
+      "output": {
+        "nodeId": "HkbBkCJeF",
+        "pinKey": "S13YspJlK"
+      }
+    },
+    {
+      "id": "B1mKc0ygt",
+      "input": {
+        "nodeId": "rkrdqCkeK",
+        "pinKey": "H1GK9u0ygt"
+      },
+      "output": {
+        "nodeId": "SklQwCyeY",
+        "pinKey": "rJWBQRyxF"
+      }
+    },
+    {
+      "id": "rJFF5AJlt",
+      "input": {
+        "nodeId": "B1HKqA1eK",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rkrdqCkeK",
+        "pinKey": "rJbF9u01lK"
+      }
+    },
+    {
+      "id": "rk24kyleF",
+      "input": {
+        "nodeId": "SkYVJkxeF",
+        "pinKey": "By_MnCkeK"
+      },
+      "output": {
+        "nodeId": "HkbBkCJeF",
+        "pinKey": "S13YspJlK"
+      }
+    },
+    {
+      "id": "SyREJklxK",
+      "input": {
+        "nodeId": "SkYVJkxeF",
+        "pinKey": "B1pmhCklY"
+      },
+      "output": {
+        "nodeId": "rkrdqCkeK",
+        "pinKey": "SyQtq_RkeK"
+      }
+    },
+    {
+      "id": "S1RBkkeeY",
+      "input": {
+        "nodeId": "ryFSykxxt",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "SkYVJkxeF",
+        "pinKey": "BkpVn0ylF"
+      }
+    }
+  ],
   "nodes": [
     {
       "id": "HkbBkCJeF",
       "position": {
         "units": "slots",
-        "x": 4,
+        "x": 3,
         "y": 1
       },
       "type": "@/ads1115-device"
+    },
+    {
+      "id": "SklQwCyeY",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "@/get-gain"
+    },
+    {
+      "id": "rk77wCJeY",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 3
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "HJNVvCklF",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 0
+      },
+      "type": "xod/core/boot"
+    },
+    {
+      "boundLiterals": {
+        "Skre8ROSv1-": "3"
+      },
+      "id": "SJpED0yeK",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 1
+      },
+      "type": "xod/core/delay"
+    },
+    {
+      "id": "rkrdqCkeK",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 3
+      },
+      "type": "@/get-data-rate"
+    },
+    {
+      "id": "B1HKqA1eK",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 3
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "SkYVJkxeF",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 3
+      },
+      "type": "@/read-adc-differential-0-1"
+    },
+    {
+      "id": "ryFSykxxt",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      },
+      "type": "xod/debug/watch"
     }
   ]
 }
