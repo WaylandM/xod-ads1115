@@ -18,10 +18,10 @@ node {
         else if (gain==GAIN_TWO) {
             emitValue<output_Gain>(ctx, 2);
         }
-        else if (gain=GAIN_FOUR) {
+        else if (gain==GAIN_FOUR) {
             emitValue<output_Gain>(ctx, 4);
         }
-        else if (gain=GAIN_EIGHT) {
+        else if (gain==GAIN_EIGHT) {
             emitValue<output_Gain>(ctx, 8);
         }
         else if (gain==GAIN_SIXTEEN) {

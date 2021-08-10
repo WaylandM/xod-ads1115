@@ -44,6 +44,10 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "boundLiterals": {
+        "__out__": "0.67"
+      },
+      "description": "Gain. Options: 0.67 (default), 1, 2, 4, 8 and 16.",
       "id": "BkYqtglet",
       "label": "Gain",
       "position": {

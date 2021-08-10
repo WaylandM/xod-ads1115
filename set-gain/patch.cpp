@@ -9,7 +9,7 @@ node {
         auto sensor = getValue<input_DEV>(ctx);
         auto gain = getValue<input_Gain>(ctx);
 
-        if (gain==0.67) {
+        if (gain<1) {
             sensor->setGain(GAIN_TWOTHIRDS);
             emitValue<output_Done>(ctx, 1);
         }
@@ -33,5 +33,6 @@ node {
             sensor->setGain(GAIN_SIXTEEN);
             emitValue<output_Done>(ctx, 1);
         }
+        
     }
 }
