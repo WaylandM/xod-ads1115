@@ -2,5 +2,5 @@
   "description": "Library for TI's ADS1115 16-bit ADC. Wraps https://github.com/adafruit/Adafruit_ADS1X15. Work in progress - limited testing!",
   "license": "BSD",
   "name": "ads1115",
-  "version": "0.0.1"
+  "version": "0.0.2"
 }

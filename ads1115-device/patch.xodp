@@ -1,4 +1,5 @@
 {
+  "description": "An ADS1115 device.",
   "nodes": [
     {
       "id": "SJDDs6Jgt",
