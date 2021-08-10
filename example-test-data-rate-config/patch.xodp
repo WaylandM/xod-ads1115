@@ -1,4 +1,20 @@
 {
+  "comments": [
+    {
+      "content": "During a successful test this watch node should cycle through all available data rates: 8, 16, 32, 64, 128, 250, 475 and 860 (samples per second).",
+      "id": "SkEj-WxxK",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 7
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 9
+      }
+    }
+  ],
   "description": "Patch to test that all data-rates can be set and read.",
   "links": [
     {
@@ -167,17 +183,6 @@
       }
     },
     {
-      "id": "rkeaaxglY",
-      "input": {
-        "nodeId": "BksqaxxgK",
-        "pinKey": "rJg00Nhe-"
-      },
-      "output": {
-        "nodeId": "SkzPiyxxK",
-        "pinKey": "r1yhZRd8W"
-      }
-    },
-    {
       "id": "BJHkAeelY",
       "input": {
         "nodeId": "SJl10lllt",
@@ -208,6 +213,17 @@
       "output": {
         "nodeId": "HJqk0gegF",
         "pinKey": "HJhXDIY9-"
+      }
+    },
+    {
+      "id": "ByRhlblgF",
+      "input": {
+        "nodeId": "BksqaxxgK",
+        "pinKey": "rJg00Nhe-"
+      },
+      "output": {
+        "nodeId": "SkzPiyxxK",
+        "pinKey": "r1yhZRd8W"
       }
     }
   ],
@@ -240,9 +256,9 @@
       "type": "@/get-data-rate"
     },
     {
-      "arityLevel": 8,
+      "arityLevel": 7,
       "boundLiterals": {
-        "BkeKyP66E": "128",
+        "BkeKyP66E": "860",
         "SkpnJvTTN": "8",
         "SkpnJvTTN-$1": "16",
         "SkpnJvTTN-$2": "32",
@@ -355,7 +371,7 @@
     },
     {
       "boundLiterals": {
-        "Skre8ROSv1-": "2"
+        "Skre8ROSv1-": "1"
       },
       "id": "BkkMZexgK",
       "position": {
