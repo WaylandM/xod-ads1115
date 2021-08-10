@@ -1,0 +1,212 @@
+{
+  "description": "Patch to test adc node. Run in debug mode.",
+  "links": [
+    {
+      "id": "Hk4BfNllK",
+      "input": {
+        "nodeId": "ryfBGNleF",
+        "pinKey": "H1R4xeNllK"
+      },
+      "output": {
+        "nodeId": "H118yVelt",
+        "pinKey": "ByfGSDjQE"
+      }
+    },
+    {
+      "id": "B1HBMVgeK",
+      "input": {
+        "nodeId": "ryfBGNleF",
+        "pinKey": "rJ1eEelEglt"
+      },
+      "output": {
+        "nodeId": "SyII1Elet",
+        "pinKey": "ByfGSDjQE"
+      }
+    },
+    {
+      "id": "BkPrz4lgK",
+      "input": {
+        "nodeId": "BJSGJNegK",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "ryfBGNleF",
+        "pinKey": "Bk8gNxg4egt"
+      }
+    },
+    {
+      "id": "BJOBzNxet",
+      "input": {
+        "nodeId": "BJ4XkVxeK",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "ryfBGNleF",
+        "pinKey": "HJwe4elEglF"
+      }
+    },
+    {
+      "id": "rktHzVlgF",
+      "input": {
+        "nodeId": "r1r71VleY",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "ryfBGNleF",
+        "pinKey": "S1YgNle4gxK"
+      }
+    },
+    {
+      "id": "SJoHf4lxF",
+      "input": {
+        "nodeId": "HyImJEexY",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "ryfBGNleF",
+        "pinKey": "BJ9gVegVleK"
+      }
+    },
+    {
+      "id": "S1aSMVexY",
+      "input": {
+        "nodeId": "S1PX1EelF",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "ryfBGNleF",
+        "pinKey": "r1sg4gxExeY"
+      }
+    },
+    {
+      "id": "HyRBMNleK",
+      "input": {
+        "nodeId": "HkuXJNexF",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "ryfBGNleF",
+        "pinKey": "Sk2xExeVxlt"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "BJSGJNegK",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "BJ4XkVxeK",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "r1r71VleY",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "HyImJEexY",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "S1PX1EelF",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "HkuXJNexF",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "boundLiterals": {
+        "ByfGSDjQE": "128"
+      },
+      "id": "H118yVelt",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 1
+      },
+      "type": "xod/debug/tweak-number"
+    },
+    {
+      "boundLiterals": {
+        "ByfGSDjQE": ".67"
+      },
+      "id": "SyII1Elet",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 1
+      },
+      "type": "xod/debug/tweak-number"
+    },
+    {
+      "id": "ryfBGNleF",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 2
+      },
+      "type": "@/adc"
+    }
+  ]
+}

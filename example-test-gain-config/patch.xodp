@@ -15,7 +15,7 @@
       }
     }
   ],
-  "description": "Patch to test that all gain options can be set and read.",
+  "description": "Patch to test that all gain options can be set and read. Run in debug mode.",
   "links": [
     {
       "id": "ByJggd2beeF",

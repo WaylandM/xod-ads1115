@@ -15,7 +15,7 @@
       }
     }
   ],
-  "description": "Patch to test that all data rates can be set and read.",
+  "description": "Patch to test that all data rates can be set and read. Run in debug mode.",
   "links": [
     {
       "id": "rkD_iJelF",

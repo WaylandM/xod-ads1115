@@ -22,6 +22,9 @@
       "type": "@/input-ads1115-device"
     },
     {
+      "boundLiterals": {
+        "__out__": "Continuously"
+      },
       "description": "Update",
       "id": "rybxafyglK",
       "label": "UPD",

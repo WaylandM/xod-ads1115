@@ -13,6 +13,7 @@
       "boundLiterals": {
         "__out__": "48h"
       },
+      "description": "I²C address",
       "id": "rJXOoT1xt",
       "label": "ADDR",
       "position": {
@@ -23,6 +24,7 @@
       "type": "xod/patch-nodes/input-byte"
     },
     {
+      "description": "An ADS1115 device.",
       "id": "S13YspJlK",
       "label": "DEV",
       "position": {
@@ -33,6 +35,7 @@
       "type": "xod/patch-nodes/output-self"
     },
     {
+      "description": "I²C bus",
       "id": "SyIiipylY",
       "label": "I2C",
       "position": {

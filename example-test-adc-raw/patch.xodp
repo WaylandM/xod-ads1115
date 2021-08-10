@@ -1,0 +1,212 @@
+{
+  "description": "Patch to test adc-raw node. Run in debug mode.",
+  "links": [
+    {
+      "id": "S1jwVVelY",
+      "input": {
+        "nodeId": "BJcPEVllF",
+        "pinKey": "SyJghQgeF"
+      },
+      "output": {
+        "nodeId": "HyHXMmVlgt",
+        "pinKey": "ByfGSDjQE"
+      }
+    },
+    {
+      "id": "r1nwNNglK",
+      "input": {
+        "nodeId": "BJcPEVllF",
+        "pinKey": "H1uZ3mgxF"
+      },
+      "output": {
+        "nodeId": "rkLmzQ4xgK",
+        "pinKey": "ByfGSDjQE"
+      }
+    },
+    {
+      "id": "BJRwNVleF",
+      "input": {
+        "nodeId": "Sy7GXVxeK",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BJcPEVllF",
+        "pinKey": "SJezpQllK"
+      }
+    },
+    {
+      "id": "HJlOENelK",
+      "input": {
+        "nodeId": "Byg7fXNggY",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BJcPEVllF",
+        "pinKey": "BJHMpXgxF"
+      }
+    },
+    {
+      "id": "BJGONExlY",
+      "input": {
+        "nodeId": "H1b7fQNget",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BJcPEVllF",
+        "pinKey": "Syys67eeY"
+      }
+    },
+    {
+      "id": "By7_N4xlY",
+      "input": {
+        "nodeId": "r1GXfXVgxF",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BJcPEVllF",
+        "pinKey": "B1-3TXext"
+      }
+    },
+    {
+      "id": "SJN_E4ggt",
+      "input": {
+        "nodeId": "HyQ7GX4geF",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BJcPEVllF",
+        "pinKey": "B1Eg-npXxlK"
+      }
+    },
+    {
+      "id": "HJUuE4xeK",
+      "input": {
+        "nodeId": "SkEmzm4llt",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BJcPEVllF",
+        "pinKey": "SkM26XggF"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "Sy7GXVxeK",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "Byg7fXNggY",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "H1b7fQNget",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "r1GXfXVgxF",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "HyQ7GX4geF",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "SkEmzm4llt",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "boundLiterals": {
+        "ByfGSDjQE": "128"
+      },
+      "id": "HyHXMmVlgt",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/debug/tweak-number"
+    },
+    {
+      "boundLiterals": {
+        "ByfGSDjQE": ".67"
+      },
+      "id": "rkLmzQ4xgK",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/debug/tweak-number"
+    },
+    {
+      "id": "BJcPEVllF",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "@/adc-raw"
+    }
+  ]
+}
